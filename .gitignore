@@ -1,0 +1,67 @@
+# Environment files with secrets
+config/*.env
+.env
+*.env
+
+# Cache and runtime data
+dt-cache/
+pareto_cache.db
+database_exports/
+
+# Generated plots and outputs
+plots/
+misc_temp_files/
+notebooks/*/model_outputs/
+notebooks/*/plots/
+notebooks/*/parity_test_outputs/
+parity_test_outputs/
+pareto_comparison_plots/
+test_regenerated_plots/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+cache_control.bat
+
+# Large data files that shouldn't be in git
+image/
+*.gif
+*.png
+*.jpg
+*.jpeg
+
+# Excel files with potentially sensitive data
+*.xlsx
+*.xls

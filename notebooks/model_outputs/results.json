@@ -1,0 +1,64 @@
+{
+  "AvgEtchRate": {
+    "RF": {
+      "params": {
+        "n_estimators": 100,
+        "random_state": 0,
+        "preprocess": "StandardScaler"
+      },
+      "r2": 0.8879658340412713,
+      "rmse": 17.520383206441213
+    },
+    "ExtraTrees": {
+      "params": {
+        "n_estimators": 100,
+        "random_state": 0,
+        "preprocess": "StandardScaler"
+      },
+      "r2": 0.9514490492238294,
+      "rmse": 11.53366220401313
+    },
+    "GPR": {
+      "params": {
+        "kernel": "C(1,[1e-2,1e2]) * Matern(ls=1,[1e-2,1e2],nu=1.5)",
+        "normalize_y": true,
+        "n_restarts_optimizer": 1,
+        "random_state": 0,
+        "alpha": "per-sample SEM^2"
+      },
+      "r2": 0.9424466746273498,
+      "rmse": 12.557511051381104
+    }
+  },
+  "ThicknessRange": {
+    "RF": {
+      "params": {
+        "n_estimators": 100,
+        "random_state": 0,
+        "preprocess": "StandardScaler"
+      },
+      "r2": 0.27350853804715214,
+      "rmse": 3.7478996175372594
+    },
+    "ExtraTrees": {
+      "params": {
+        "n_estimators": 100,
+        "random_state": 0,
+        "preprocess": "StandardScaler"
+      },
+      "r2": 0.4493181561029209,
+      "rmse": 3.2630450670408035
+    },
+    "GPR": {
+      "params": {
+        "kernel": "C(1,[1e-2,1e2]) * Matern(ls=1,[1e-2,1e2],nu=1.5)",
+        "normalize_y": true,
+        "n_restarts_optimizer": 1,
+        "random_state": 0,
+        "alpha": "per-sample (rel_err*target)^2"
+      },
+      "r2": -1.3684787278754467,
+      "rmse": 6.767175464062863
+    }
+  }
+}

@@ -1,0 +1,66 @@
+13
+13
+"Filmetrics, Inc. Wafer Map File"
+"Units (nm)",2
+"Wafer Dia (mm)",100
+"Wafer/index mark style (0=round w/ flat; 1=round w/ notch; 2=round w/ none; 3=square",0
+"Wafer ID","Map1 - Map2"
+"Measurement Date/Time:",#0001-01-01#,0
+"Recipe Name"#ERROR 448#
+"Wafer Slot ID",0
+"Operator ID","Unknown"
+"Etch/Dep Time:",5
+"Etch/Dep Time Unit",1
+"Wafer Width (mm)",100
+"Wafer Height (mm)",100
+"Y Offset (mm)",0
+"Y Values are always positive",0
+"Origin type on wafer",0
+"Has Associated History File(s)",#FALSE#
+"# Patterns or Sites",1
+"[Start Site or Pattern # 1]"
+"# Measured Die",37
+"Edge Exclusion (mm)",5
+"Site 1 Layer 1 Thickness","site x (mm)","site y (mm)"
+1070,0,0,-1
+"Die x (mm)","Die y (mm)","Site 1 Layer 1 Thickness (nm)"
+0,0,630.9974
+14.23,0,630.0134
+14.23,14.23,630.6516
+0,14.23,631.4716
+-14.23,14.23,631.6568
+-14.23,0,631.5281
+-14.23,-14.23,630.3953
+0,-14.23,630.0939
+14.23,-14.23,628.9702
+28.46,-14.23,626.7498
+28.46,0,627.7535
+28.46,14.23,628.1088
+28.46,28.46,627.7839
+14.23,28.46,630.5021
+0,28.46,631.538
+-14.23,28.46,631.5117
+-28.46,28.46,630.2799
+-28.46,14.23,630.6738
+-28.46,0,630.5488
+-28.46,-14.23,630.0742
+-28.46,-28.46,629.1871
+-14.23,-28.46,629.543
+0,-28.46,629.0303
+14.23,-28.46,627.8934
+28.46,-28.46,625.7429
+42.691,-14.23,624.2308
+42.691,0,625.0121
+42.691,14.23,625.2023
+14.23,42.691,629.5363
+0,42.691,630.3275
+-14.23,42.691,630.3599
+-42.691,14.23,630.1975
+-42.691,0,630.2263
+-42.691,-14.23,629.7119
+-14.23,-42.29,628.4614
+0,-42.29,627.8417
+14.23,-42.29,626.6909
+1
+"Parameter","Min","Max","Mean","StdDev","Range","Uniformity","CTE","Wedge","WedgeAngle","ValidPts","TotalPts"
+"Site 1 Layer 1 Thickness",624.23,631.66,629.2,1.97,7.43,0.6,-3.81,6.44,149.7036,37,37

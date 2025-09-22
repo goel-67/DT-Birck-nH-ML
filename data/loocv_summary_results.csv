@@ -1,0 +1,10 @@
+Iteration,Target,Model,RMSE,R2,Params
+1,AvgEtchRate,RF,18.64501103403605,0.875558964829566,"{'regressor__bootstrap': True, 'regressor__max_depth': 29, 'regressor__max_features': np.float64(0.47990268020067883), 'regressor__min_samples_leaf': 3, 'regressor__min_samples_split': 5}"
+1,AvgEtchRate,ET,19.56206924254755,0.8630166101115099,"{'regressor__max_depth': 7, 'regressor__max_features': np.float64(0.6252813963310069), 'regressor__min_samples_leaf': 5, 'regressor__min_samples_split': 2}"
+1,AvgEtchRate,GPR,12.071356356499571,0.9478384524873615,{'regressor__kernel': 1**2 * RBF(length_scale=0.1) + WhiteKernel(noise_level=1e-05)}
+1,RangeThickness,RF,3.2307004661351404,0.3344688731002875,"{'regressor__bootstrap': True, 'regressor__max_depth': 22, 'regressor__max_features': np.float64(0.6146901982034297), 'regressor__min_samples_leaf': 3, 'regressor__min_samples_split': 6}"
+1,RangeThickness,ET,3.2136332122591074,0.3414820800051376,"{'regressor__max_depth': 7, 'regressor__max_features': np.float64(0.6252813963310069), 'regressor__min_samples_leaf': 5, 'regressor__min_samples_split': 2}"
+1,RangeThickness,GPR,2.3920003724362573,0.6351641815528422,{'regressor__kernel': 0.316**2 * RBF(length_scale=10) + WhiteKernel(noise_level=0.1)}
+1,Vector41,RF,18.665432642082887,0.8752948787257768,"{'regressor__bootstrap': True, 'regressor__max_depth': 29, 'regressor__max_features': np.float64(0.47990268020067883), 'regressor__min_samples_leaf': 3, 'regressor__min_samples_split': 5}"
+1,Vector41,ET,19.550325515257178,0.8631905322986696,"{'regressor__max_depth': 7, 'regressor__max_features': np.float64(0.6252813963310069), 'regressor__min_samples_leaf': 5, 'regressor__min_samples_split': 2}"
+1,Vector41,GPR,12.071005041104977,0.9478451104480147,{'regressor__kernel': 1**2 * RBF(length_scale=0.1) + WhiteKernel(noise_level=1e-05)}
